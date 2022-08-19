@@ -67,16 +67,57 @@
         <div
           class="container vh-100 d-flex flex-column align-items-center align-items-sm-start justify-content-center"
         >
-          <h1 class="hero-slug fw-bold">
+          <h1 class="hero-slug fw-bold text-uppercase text-center">
             <span style="color: #ffa801">Eat, Drink</span> &
           </h1>
-          <h1 class="hero-slug fw-bold">Endulge Yourself</h1>
-          <button class="btn global-btn mt-3 ms-1 rounded-0">
+          <h1 class="hero-slug fw-bold text-uppercase text-center">Endulge Yourself</h1>
+          <button class="btn global-btn mt-3 ms-1 rounded-0"data-bs-toggle="modal" data-bs-target="#exampleModal">
             RESERVE NOW <i class="fa fa-chevron-right"></i>
           </button>
         </div>
       </div>
     </section>
+
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Customer Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="recipient-email" class="col-form-label">Email</label>
+                <input type="email" class="form-control" id="recipient-email">
+              </div>
+              <div class="mb-3">
+                <label for="recipient-phone" class="col-form-label">Phone</label>
+                <input type="phone" class="form-control" id="recipient-phone">
+              </div>
+              <label for="recipient-name" class="col-form-label">Table for:</label>
+              <select class="form-select" aria-label="Default select example">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Reserve now</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ---- Services ---- -->
     <section class="p-3 p-md-5 mt-5" id="services">
@@ -162,7 +203,7 @@
               <div class="portfolio-overlay">
                 <div class="portfolio-text text-white text-center">
                   <p>DRINKS & BEVERAGES</p>
-                  <a class="btn global-btn" href="#">Go To Menu</a>
+                  <a href="menu.html" class="btn global-btn" href="#">Go To Menu</a>
                 </div>
               </div>
             </div>
@@ -177,7 +218,7 @@
               <div class="portfolio-overlay">
                 <div class="portfolio-text text-white text-center">
                   <p>FOODS & SNACKS</p>
-                  <a class="btn global-btn" href="#">Go To Menu</a>
+                  <a href="menu.html" class="btn global-btn" href="#">Go To Menu</a>
                 </div>
               </div>
             </div>
@@ -192,7 +233,7 @@
               <div class="portfolio-overlay">
                 <div class="portfolio-text text-white text-center">
                   <p>DESSERTS & SWEETS</p>
-                  <a class="btn global-btn" href="#">Go To Menu</a>
+                  <a href="menu.html" class="btn global-btn" href="#">Go To Menu</a>
                 </div>
               </div>
             </div>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Alfa+Slab+One&Poppins:wght@400;700&display=swap');
+
+:root {
+    --brand-color: #ffa801;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.fa-solid{
+    color: var(--brand-color);
+}
+
+
+/* <!-- ---- Hero ---- --> */
+#menu-hero {
+    background: url("https://images.pexels.com/photos/6327144/pexels-photo-6327144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position:  top center;;
+    background-attachment: fixed;
+    height: 380px;
+
+}
+.menu-opacity-bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.768);
+}

@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Alfa+Slab+One&Poppins:wght@400;700&display=swap');
 
-:root {
-    --brand-color: #ffa801;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-
-}
 
 /* <!-- ---- Hero ---- --> */
 #contact-hero {

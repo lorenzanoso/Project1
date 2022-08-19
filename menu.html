@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ---- Meta Tags ---- -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ---- Font Awesome ---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ---- Bootstrap CSS ---- -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- ---- Custom CSS ---- -->
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>DA` DONS Resto&Bar</title>
+  </head>
+  <body>
+    <!-- ---- Navbar ---- -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container d-flex">
+        <a href="#" class="navbar-brand position-relative text-decoration-none"
+          ><i class="fa-solid fa-champagne-glasses"></i>
+          DA` DONS
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon menu-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item p-2">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item p-2">
+              <a href="#" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item p-2">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ---- Hero ---- -->
+    <section id="menu-hero">
+      <div class="menu-opacity-bg v-100 text-white">
+        <div
+          class="container h-100 d-flex flex-column align-items-center justify-content-end"
+        >
+          <h1 class="hero-slug fw-bold text-center">
+            <span style="color: #ffa801">EXPLORE OUR FOODS</span>
+          </h1>
+          <p class="text-muted text-center">
+            We serve the best food and drinks in town.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ---- Menu ---- -->
+    <section class="p-3 p-md-5">
+      <div class="container">
+        <nav>
+          <div
+            class="nav nav-tabs justify-content-center"
+            id="nav-tab"
+            role="tablist"
+          >
+            <button
+              class="nav-link text-dark active"
+              id="nav-foods-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-foods"
+              type="button"
+              role="tab"
+              aria-controls="nav-foods"
+              aria-selectd="true"
+            >
+              <small class="fw-bold">Foods</small>
+            </button>
+            <button
+              class="nav-link text-dark"
+              id="nav-drinks-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-drinks"
+              type="button"
+              role="tab"
+              aria-controls="nav-drinks"
+              aria-selectd="false"
+            >
+              <small class="fw-bold">Drinks</small>
+            </button>
+            <button
+              class="nav-link text-dark"
+              id="nav-dessert-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-dessert"
+              type="button"
+              role="tab"
+              aria-controls="nav-dessert"
+              aria-selectd="false"
+            >
+              <small class="fw-bold">Dessert</small>
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-foods"
+            role="tabpanel"
+            aria-labelledby="nav-foods-tab"
+          >
+            <div class="container py-5">
+              <div class="food-type">
+                <h4>BREAKFAST</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="food-price d-flex justify-content-between">
+                      <small>CINNAMON ROLLS</small>
+                      <small>$25</small>
+                    </div>
+                    <div class="food-price d-flex justify-content-between">
+                      <small>STRAWBERRY PANCAKE</small>
+                      <small>$22</small>
+                    </div>
+                    <div class="food-price d-flex justify-content-between">
+                      <small>CLASSIC WAFFLES</small>
+                      <small>$15</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>AMERICAN TAPSILOG</small>
+                      <small>$28</small>
+                    </div>
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>AMERICAN LONGSILOG</small>
+                      <small>$28</small>
+                    </div>
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>AMERICAN CHIKSILOG</small>
+                      <small>$32</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lunch -->
+            <div class="container py-5">
+              <div class="food-type">
+                <h4>LUNCH</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="food-price d-flex justify-content-between">
+                      <small>SINIGANG SA MISO</small>
+                      <small>$80</small>
+                    </div>
+                    <div class="food-price d-flex justify-content-between">
+                      <small>MINURAAN</small>
+                      <small>$70</small>
+                    </div>
+                    <div class="food-price d-flex justify-content-between">
+                      <small>ADOBONG TAGALOG</small>
+                      <small>$95</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/6525933/pexels-photo-6525933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>KARE-KARE</small>
+                      <small>$105</small>
+                    </div>
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>SINGANG NA LECHONG KAWALI</small>
+                      <small>$80</small>
+                    </div>
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>NILAGANG BAKA</small>
+                      <small>$63</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Dinner-->
+            <div class="container py-5">
+              <div class="food-type">
+                <h4>DINNER</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="food-price d-flex justify-content-between">
+                      <small>FRENCH BREAD PIZZA</small>
+                      <small>$50</small>
+                    </div>
+                    <div class="food-price d-flex justify-content-between">
+                      <small>ENCHILADAS</small>
+                      <small>$60</small>
+                    </div>
+                    <div class="food-price d-flex justify-content-between">
+                      <small>ULTIMATE EGG ROLLS</small>
+                      <small>$85</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/7845133/pexels-photo-7845133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>CHICKEN FINGERS</small>
+                      <small>$78</small>
+                    </div>
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>CHEESY BACON CHICKEN</small>
+                      <small>$81</small>
+                    </div>
+                    <div
+                      class="food-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>SALMON PATTIES</small>
+                      <small>$63</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-drinks"
+            role="tabpanel"
+            aria-labelledby="nav-drinks-tab"
+          >
+            <!-- JUICE -->
+            <div class="container py-5">
+              <div class="drink-type">
+                <h4>JUICE/SOFTDRINKS</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>CUCUMBER JUICE</small>
+                      <small>$15</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>MANGO JUICE</small>
+                      <small>$15</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>LIME JUICE</small>
+                      <small>$8</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/9364764/pexels-photo-9364764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>COKE IN CAN | LIGHT</small>
+                      <small>$22</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>JUICY SODA</small>
+                      <small>$22</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>MOUNTAIN DUE IN CAN</small>
+                      <small>$23</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FRUIT SHAKES -->
+            <div class="container py-5">
+              <div class="drink-type">
+                <h4>FRUIT SHAKES</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>MANGO SHAKE</small>
+                      <small>$35</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>PINEAPPLE SHAKE</small>
+                      <small>$36</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>BANANA SHAKE</small>
+                      <small>$30</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/7937485/pexels-photo-7937485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>AVOCADO SHAKE</small>
+                      <small>$31</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>STRAWBERRY SHAKE</small>
+                      <small>$28</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>MELON SHAKE</small>
+                      <small>$35</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- BEERS -->
+            <div class="container py-5">
+              <div class="drink-type">
+                <h4>BEERS</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>RED HORSE</small>
+                      <small>$25</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>SAN MIGUEL PALE PILSEN</small>
+                      <small>$23</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>TIGER CRTYSTAL BEER</small>
+                      <small>$23</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/1089932/pexels-photo-1089932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>SMURNOFF</small>
+                      <small>$21</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>HEINEKEN</small>
+                      <small>$28</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>TANDUAY ICE</small>
+                      <small>$28</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-dessert"
+            role="tabpanel"
+            aria-labelledby="nav-dessert-tab"
+          >
+            <!-- CAKES -->
+            <div class="container py-5">
+              <div class="drink-type">
+                <h4>CAKES</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>RED VELVET</small>
+                      <small>$100</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>CHOCOLATE MOUSSE</small>
+                      <small>$80</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>BLACK FOREST</small>
+                      <small>$89</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/998239/pexels-photo-998239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>STRAWBERRY CAKE</small>
+                      <small>$89</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>CARAMEL CAKE</small>
+                      <small>$89</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>UBE WONDERLAND CAKE</small>
+                      <small>$88</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SWEETS -->
+            <div class="container py-5">
+              <div class="drink-type">
+                <h4>PASTRIES</h4>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>CHOCOLATE COFFEE TRUFFLE</small>
+                      <small>$55</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>HOT COINTREAU SOUFFLE</small>
+                      <small>$54</small>
+                    </div>
+                    <div class="drink-price d-flex justify-content-between">
+                      <small>EGGLESS CHOCOLATE MOUSSE</small>
+                      <small>$45</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div
+                    class="h-100 d-flex flex-column align-items-around justify-content-evenly"
+                  >
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>COCONUT KHEER</small>
+                      <small>$44</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>LOW FAT TIRAMISU</small>
+                      <small>$60</small>
+                    </div>
+                    <div
+                      class="drink-price d-flex flex-row-reverse justify-content-between"
+                    >
+                      <small>FUDGY CHEWY BROWNIES</small>
+                      <small>$66</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- Footer ---- -->
+    <footer class="p-3 p-md-5 bg-dark">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md">
+            <div class="d-flex flex-column text-muted">
+              <small>(042) - 797 - 8762</small>
+              <small>dadons@support.com</small>
+              <small>L1 BL1, Cherrry St. Switzerland Village, QC</small>
+              <a href="contact.html" class="text-decoration-none small mt-2"
+                >Drop us a message now</a
+              >
+            </div>
+            <div class="d-flex flex-row">
+              <small><i class="fa-brands fa-instagram mt-3 me-2"></i></small>
+              <small><i class="fa-brands fa-facebook mt-3 me-2"></i></small>
+              <small><i class="fa-brands fa-twitter mt-3 me-2"></i></small>
+              <small><i class="fa-brands fa-linkedin mt-3 me-2"></i></small>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="d-flex flex-column mt-3 mt-md-0">
+              <small class="footer-title">Services</small>
+              <a href="#" class="text-muted text-decoration-none"
+                ><small>Events</small></a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                ><small>Catering</small></a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                ><small>Delivery</small></a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                ><small>Reservation</small></a
+              >
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="d-flex flex-column mt-3 mt-md-0">
+              <small class="footer-title">Menu</small>
+              <a href="#" class="text-muted text-decoration-none"
+                ><small>Drinks & Beverages</small></a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                ><small>Foods & Snacks</small></a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                ><small>Desserts & Sweets</small></a
+              >
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="d-flex flex-column mt-3 mt-md-0">
+              <small class="footer-title">Branches</small>
+              <ul>
+                <li>
+                  <a href="#" class="text-muted text-decoration-none small"
+                    >21st St., Quezon Ave, Quezon City</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-muted text-decoration-none small"
+                    >ML Tagarao St., Angeles Tayabas City</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-muted text-decoration-none small"
+                    >32 Stawberry St. Delatorre Subd, Lucena City</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <span class="text-muted copyright-text"
+              >Copyright © 2022, Dadons`, All Rights Reserved.</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ---- Bootstrap JS ---- -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
